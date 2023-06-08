@@ -1,4 +1,9 @@
 const mongoose = require("mongoose");
+// const User = require("../models/user.js");
+// const { hashUsersPassword } = require("../utils");
+// const Product = require("../models/product");
+// const ProductStat = require("../models/productStat");
+// const { dataProduct, dataProductStat  } = require("../data/index");
 
 
 const connectDB = async () => {
@@ -9,10 +14,15 @@ const connectDB = async () => {
             // useFindAndModify: true
         })
 
-        console.log(`MongoDB connected: ${conn.connection.host}`)
+        console.log(`MongoDB connected: ${conn.connection.host}`);
+        
+        // const hashedUsers = await hashUsersPassword(defaultUsers);
+        // User.insertMany(hashedUsers);
+        // Product.insertMany(dataProduct); 
+        // ProductStat.insertMany(dataProductStat);
     } catch (err) {
-        console.error(err)
-        process.exit(1)
+        console.error(err);
+        process.exit(1);
     }
 }
 

@@ -1,14 +1,13 @@
-const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const expressAsyncHandler = require("express-async-handler");
-const { User } = require("../models/user.js");
+const User = require("../models/user.js");
 
 
 // @desc      register new user
 // @route     POST /api/users/register
 // @access    Public
 const registerUser = expressAsyncHandler(async (req, res) => {
-    const { firstName, lastName, username, email, password } = req.body;
+    const { username, email, fullName, password } = req.body;
 
     if (!email || !username || !password) {
         res.status(400);
@@ -23,14 +22,9 @@ const registerUser = expressAsyncHandler(async (req, res) => {
         throw new Error("User already exists");
     }
 
-    // hash password
-    // const salt = await bcrypt.genSalt(10);
-    // const hashedPassword = await bcrypt.hash(password, salt);
-
     // create user
     const user = await User.create({
-        firstName: firstName ? firstName : "",
-        lastName: lastName ? lastName : "",
+        fullName: fullName ? fullName : "",
         username,
         email,
         password,
@@ -41,10 +35,9 @@ const registerUser = expressAsyncHandler(async (req, res) => {
             message: "success",
             data: {
                 _id: user.id,
-                firstName: user.firstName,
-                lastName: user.lastName,
                 username: user.username,
-                email: user.email
+                email: user.email,
+                role: user.role
             }
         }) ;
     } else {
@@ -68,18 +61,16 @@ const loginUser = expressAsyncHandler(async (req, res) => {
     }
 
     if (user && (await user.matchPassword(password))) {
-        // generate token
+        // generate token and set-cookie in res headers
         generateToken(res, user._id);
-        // console.log("user id:", user._id, "\n\n\n");
 
         res.status(200).json({
             message: "success",
             data: {
-                id: user._id,
-                firstName: user.firstName,
-                lastName: user.lastName,
+                _id: user._id,
                 username: user.username,
-                email: user.email
+                email: user.email,
+                role: user.role
             }
         });
     } else {
@@ -88,19 +79,77 @@ const loginUser = expressAsyncHandler(async (req, res) => {
     }
 })
 
-// @desc      Get a user
+// @desc      Get a auth user
 // @route     GET /api/users/me
 // @access    Private
-const getUser = expressAsyncHandler(async (req, res) => {
-    const { _id, username, email, firstName, lastName } = await User.findById(req.user.id);
+const getMe = expressAsyncHandler(async (req, res) => {
+    const { 
+        _id, 
+        username, 
+        email, 
+        fullName, 
+        phoneNumber, 
+        city, 
+        state, 
+        country, 
+        occupation, 
+        transactions, 
+        role 
+    } = await User.findById(req.user._id);
     
     res.status(200).json({ 
-        id: _id,
+        _id,
         username,
         email,
-        firstName,
-        lastName
+        fullName,
+        phoneNumber: phoneNumber || "", 
+        city: city || "", 
+        state: state || "", 
+        country: country || "", 
+        occupation: occupation || "",  
+        transactions, 
+        role 
     });
+})
+
+// @desc      Get a user
+// @route     GET /api/users/:id
+// @access    Public
+const getUser = expressAsyncHandler(async (req, res) => {
+    try {
+        const { 
+            _id, 
+            username, 
+            email, 
+            fullName, 
+            phoneNumber, 
+            city, 
+            state, 
+            country, 
+            occupation, 
+            transactions, 
+            role 
+        } = await User.findById(req.params.id);
+        
+        res.status(200).json({ 
+            _id,
+            username,
+            email,
+            fullName,
+            phoneNumber: phoneNumber || "", 
+            city: city || "", 
+            state: state || "", 
+            country: country || "", 
+            occupation: occupation || "",  
+            transactions, 
+            role 
+        });
+    } catch (err) {
+        console.error("Error::getUser::", err.message);
+        res.status(404).json({
+            message: err.message
+        });
+    }
 })
 
 // @desc      Update a user
@@ -113,8 +162,13 @@ const updateUser = expressAsyncHandler(async (req, res) => {
         console.log(req.body);
         user.username = req.body.username || user.username;
         user.email = req.body.email || user.email;
-        user.firstName = req.body.firstName || user.firstName;
-        user.lastName = req.body.lastName || user.lastName;
+        user.fullName = req.body.fullName || user.fullName;
+        user.phoneNumber = req.body.phoneNumber || user.phoneNumber;
+        user.city = req.body.city || user.city;
+        user.state = req.body.state || user.state;
+        user.country = req.body.country || user.country;
+        user.occupation = req.body.occupation || user.occupation;
+        user.role = req.body.role || user.role;
 
         if (req.body.password) {
             user.password = req.body.password;
@@ -123,11 +177,17 @@ const updateUser = expressAsyncHandler(async (req, res) => {
         const updatedUser = await user.save();
 
         res.status(200).json({
-            id: updatedUser._id,
+            _id: updatedUser._id,
             username: updatedUser.username,
             email: updatedUser.email,
-            firstName: updatedUser.firstName,
-            lastName: updatedUser.lastName,
+            fullName: updatedUser.fullName,
+            phoneNumber: updatedUser.phoneNumber, 
+            city: updatedUser.city, 
+            state: updatedUser.state, 
+            country: updatedUser.country, 
+            occupation: updatedUser.occupation, 
+            transactions: updatedUser.transactions,  
+            role: updatedUser.role 
         });
     } else {
         res.status(404);
@@ -165,6 +225,7 @@ module.exports = {
     registerUser,
     loginUser,
     logoutUser,
+    getMe,
     getUser,
     updateUser
 }

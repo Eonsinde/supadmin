@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
 
+
 const userSchema = mongoose.Schema({
     username: {
         type: String,
@@ -12,15 +13,24 @@ const userSchema = mongoose.Schema({
         required: [true, "Please add an email"],
         unique: true
     },
-    firstName: {
+    fullName: {
         type: String,
-    },
-    lastName: {
-        type: String,  
+        required: [true, "Please add a name"]
     },
     password: {
         type: String,
         required: [true, "Please add a password"]
+    },
+    city: String,
+    state: String,
+    country: String,
+    occupation: String,
+    phoneNumber: String,
+    transactions: Array,
+    role: {
+        type: String,
+        enum: ["user", "admin", "superadmin"],
+        default: "admin"
     }
 }, {
     timestamps: true
@@ -39,6 +49,5 @@ userSchema.methods.matchPassword = async function(enteredPassword) {
     return await bcrypt.compare(enteredPassword, this.password);
 }
 
-module.exports = {
-    User: mongoose.model("User", userSchema)
-}
+const User = mongoose.model("User", userSchema);
+module.exports = User;

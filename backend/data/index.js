@@ -1,4 +1,4 @@
-export const dataAffiliateStat = [
+exports.dataAffiliateStat = [
     {
       _id: "6371251df03239e680000033",
       userId: "63701cc1f03239f09e00018a",
@@ -1806,7 +1806,7 @@ export const dataAffiliateStat = [
     },
   ];
   
-  export const dataOverallStat = [
+  exports.dataOverallStat = [
     {
       totalCustomers: 5251,
       yearlySalesTotal: 65152,
@@ -2266,7 +2266,7 @@ export const dataAffiliateStat = [
     },
   ];
   
-  export const dataProduct = [
+  exports.dataProduct = [
     {
       _id: "63701d24f03239c72c00018e",
       name: "Port Beckley",
@@ -2539,7 +2539,7 @@ export const dataAffiliateStat = [
     },
   ];
   
-  export const dataProductStat = [
+  exports.dataProductStat = [
     {
       _id: "6371259df03239e680000035",
       productId: "63701d24f03239c72c00018e",
@@ -12802,7 +12802,7 @@ export const dataAffiliateStat = [
     },
   ];
   
-  export const dataTransaction = [
+  exports.dataTransaction = [
     {
       _id: "63701d74f03239c72c000192",
       userId: "63701cc1f032390a34000319",
@@ -17306,10 +17306,11 @@ export const dataAffiliateStat = [
     },
   ];
   
-  export const dataUser = [
+  exports.defaultUsers = [
     {
       _id: "63701cc1f03239c72c00017f",
-      name: "Konstantine",
+      fullName: "Konstantine",
+      username: "kranstead0",
       email: "kranstead0@narod.ru",
       password: "omMDCh",
       city: "Nurabelen",
@@ -17327,7 +17328,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239c72c000180",
-      name: "Marilyn",
+      fullName: "Marilyn",
+      username: "donlon1",
       email: "mdonlon1@hostgator.com",
       password: "XRYBnKAfm",
       city: "Zhanghekou",
@@ -17345,7 +17347,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239c72c000181",
-      name: "Olly",
+      fullName: "Olly",
+      username: "oveneur2",
       email: "oveneur2@marketwatch.com",
       password: "WwDjOlH",
       city: "Muang Sam Sip",
@@ -17365,7 +17368,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239c72c000182",
-      name: "Hale",
+      fullName: "Hale",
+      username: "hpyrah3",
       email: "hpyrah3@bbc.co.uk",
       password: "vojl4bBDJ",
       city: "San Luis",
@@ -17389,7 +17393,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239c72c000183",
-      name: "Allie",
+      fullName: "Allie",
+      username: "afranzschoninger4",
       email: "afranzschoninger4@simplemachines.org",
       password: "zocih1DjIv",
       city: "Osieck",
@@ -17406,7 +17411,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239c72c000184",
-      name: "Donelle",
+      fullName: "Donelle",
+      username: "dcrossgrove5",
       email: "dcrossgrove5@constantcontact.com",
       password: "Q81bu6JV",
       city: "São Jerônimo",
@@ -17430,7 +17436,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239c72c000185",
-      name: "Westbrook",
+      fullName: "Westbrook",
+      username: "wsiddon6",
       email: "wsiddon6@state.tx.us",
       password: "PVfV72mNxb4",
       city: "Hanjiashu",
@@ -17453,7 +17460,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239c72c000186",
-      name: "Paola",
+      fullName: "Paola",
+      username: "pledger7",
       email: "pledger7@freewebs.com",
       password: "L6mw336",
       city: "Xian’an",
@@ -17470,7 +17478,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239c72c000187",
-      name: "Whit",
+      fullName: "Whit",
+      username: "wrenols8",
       email: "wrenols8@webeden.co.uk",
       password: "TnE8Lbb",
       city: "Oganlima",
@@ -17491,7 +17500,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239c72c000188",
-      name: "Shayna",
+      fullName: "Shayna",
+      username: "sradcliffe9",
       email: "sradcliffe9@nytimes.com",
       password: "S7uupsmLnj6",
       city: "Longshan",
@@ -17511,7 +17521,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239c72c000189",
-      name: "Donnamarie",
+      fullName: "Donnamarie",
+      username: "dkelfa",
       email: "dkelfa@cam.ac.uk",
       password: "VygsdES",
       city: "Buraen",
@@ -17531,7 +17542,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239c72c00018a",
-      name: "Felice",
+      fullName: "Felice",
+      username: "fleivesleyb",
       email: "fleivesleyb@liveinternet.ru",
       password: "vDE7jo",
       city: "Hrušica",
@@ -17551,7 +17563,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239c72c00018b",
-      name: "Fan",
+      fullName: "Fan",
+      username: "fmarttc",
       email: "fmarttc@java.com",
       password: "6MbbkQdEUIU",
       city: "Gueset",
@@ -17568,7 +17581,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239c72c00018c",
-      name: "Jack",
+      fullName: "Jack",
+      username: "jmattiazzid",
       email: "jmattiazzid@amazon.co.uk",
       password: "QVqoVN",
       city: "Ar Ramthā",
@@ -17589,7 +17603,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239c72c00018d",
-      name: "Ive",
+      fullName: "Ive",
+      username: "istraceye",
       email: "istraceye@weather.com",
       password: "okzBTuP",
       city: "Umbuldamar",
@@ -17602,7 +17617,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239867500011b",
-      name: "May",
+      fullName: "May",
+      username: "mpatchettf",
       email: "mpatchettf@drupal.org",
       password: "2c2sbTe",
       city: "Jianchang",
@@ -17623,7 +17639,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239867500011c",
-      name: "Wendel",
+      fullName: "Wendel",
+      username: "wdutchburng",
       email: "wdutchburng@nationalgeographic.com",
       password: "kmi0faeWBx1G",
       city: "Anáfi",
@@ -17646,7 +17663,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239867500011d",
-      name: "Ruddie",
+      fullName: "Ruddie",
+      username: "rradolfh",
       email: "rradolfh@webeden.co.uk",
       password: "Fo6oBx",
       city: "Onega",
@@ -17659,7 +17677,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239867500011e",
-      name: "Marsiella",
+      fullName: "Marsiella",
+      username: "mduckiti",
       email: "mduckiti@cyberchimps.com",
       password: "e3EXvP",
       city: "Qiujia",
@@ -17672,7 +17691,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239867500011f",
-      name: "Ardys",
+      fullName: "Ardys",
+      username: "achallensj",
       email: "achallensj@slideshare.net",
       password: "z3dWORN4DR",
       city: "Nova Venécia",
@@ -17691,7 +17711,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032398675000120",
-      name: "Annora",
+      fullName: "Annora",
+      username: "aezzellk",
       email: "aezzellk@dell.com",
       password: "r4BBJbD",
       city: "Asino",
@@ -17709,7 +17730,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032398675000121",
-      name: "Donnie",
+      fullName: "Donnie",
+      username: "dwhyel",
       email: "dwhyel@icio.us",
       password: "PUX9ly",
       city: "Sofrino",
@@ -17732,7 +17754,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032398675000122",
-      name: "Putnem",
+      fullName: "Putnem",
+      username: "pklimam",
       email: "pklimam@hubpages.com",
       password: "DjNXXzYKZpr",
       city: "Walichnowy",
@@ -17745,7 +17768,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032398675000123",
-      name: "Cassius",
+      fullName: "Cassius",
+      username: "cwaben",
       email: "cwaben@discovery.com",
       password: "2FLtGooM",
       city: "Si Mahosot",
@@ -17763,7 +17787,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032398675000124",
-      name: "Elsi",
+      fullName: "Elsi",
+      username: "ehazeldeneo",
       email: "ehazeldeneo@ezinearticles.com",
       password: "FCWiZT12E",
       city: "Vũng Tàu",
@@ -17786,7 +17811,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032398675000125",
-      name: "Dacey",
+      fullName: "Dacey",
+      username: "domohunp",
       email: "domohunp@youku.com",
       password: "c9DQGaI",
       city: "Solntsevo",
@@ -17810,7 +17836,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032398675000126",
-      name: "Baxter",
+      fullName: "Baxter",
+      username: "babramovitzq",
       email: "babramovitzq@oaic.gov.au",
       password: "Y3XCoCOQ7",
       city: "Orléans",
@@ -17830,7 +17857,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032398675000127",
-      name: "Claudette",
+      fullName: "Claudette",
+      username: "cjentr",
       email: "cjentr@meetup.com",
       password: "BXhdT5Gy",
       city: "Langenburg",
@@ -17854,7 +17882,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032398675000128",
-      name: "Tully",
+      fullName: "Tully",
+      username: "tmushrows",
       email: "tmushrows@timesonline.co.uk",
       password: "osjFXkw31d",
       city: "La Laja",
@@ -17867,7 +17896,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032398675000129",
-      name: "Clarey",
+      fullName: "Clarey",
+      username: "ccoastert",
       email: "ccoastert@walmart.com",
       password: "YALFgb5K0eMw",
       city: "El Rosario",
@@ -17888,7 +17918,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b7f7000006",
-      name: "Catrina",
+      fullName: "Catrina",
+      username: "cstroderu",
       email: "cstroderu@list-manage.com",
       password: "GmZQaLqe",
       city: "Nossebro",
@@ -17901,7 +17932,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b7f7000007",
-      name: "Karoline",
+      fullName: "Karoline",
+      username: "kbahikev",
       email: "kbahikev@dmoz.org",
       password: "lDNqwWtH89",
       city: "Nanxinxiang",
@@ -17921,7 +17953,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b7f7000008",
-      name: "Elwood",
+      fullName: "Elwood",
+      username: "einkpenw",
       email: "einkpenw@mysql.com",
       password: "Tco5HF0DgN28",
       city: "Ban Khlong Bang Sao Thong",
@@ -17943,7 +17976,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b7f7000009",
-      name: "Catina",
+      fullName: "Catina",
+      username: "cgookeyx",
       email: "cgookeyx@upenn.edu",
       password: "gSN5MQ0j",
       city: "Iberia",
@@ -17962,7 +17996,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b7f700000a",
-      name: "Josh",
+      fullName: "Josh",
+      username: "jpearsony",
       email: "jpearsony@godaddy.com",
       password: "SV5HATy",
       city: "Phúc Yên",
@@ -17984,7 +18019,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b7f700000b",
-      name: "Johannah",
+      fullName: "Johannah",
+      username: "jpulbrookz",
       email: "jpulbrookz@addthis.com",
       password: "EaMwB8azB",
       city: "Starcevica",
@@ -18003,7 +18039,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b7f700000c",
-      name: "Svend",
+      fullName: "Svend",
+      username: "swalcher10",
       email: "swalcher10@soundcloud.com",
       password: "AUXlFAx",
       city: "Neuzina",
@@ -18022,7 +18059,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b7f700000d",
-      name: "Sosanna",
+      fullName: "Sosanna",
+      username: "smaskew11",
       email: "smaskew11@cloudflare.com",
       password: "JwJ8KAu",
       city: "Gulong",
@@ -18041,7 +18079,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b7f700000e",
-      name: "Shelly",
+      fullName: "Shelly",
+      username: "swelbeck12",
       email: "swelbeck12@ycombinator.com",
       password: "RSjzmAjnq",
       city: "Sangoleng",
@@ -18062,7 +18101,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b7f700000f",
-      name: "Amil",
+      fullName: "Amil",
+      username: "aweben13",
       email: "aweben13@feedburner.com",
       password: "GpOhlbh0G",
       city: "Primorskiy",
@@ -18080,7 +18120,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b7f7000010",
-      name: "Hugh",
+      fullName: "Hugh",
+      username: "hainscow14",
       email: "hainscow14@themeforest.net",
       password: "Ss5r1aRDRri",
       city: "Krajan Dermawuharjo",
@@ -18097,7 +18138,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b7f7000011",
-      name: "Allissa",
+      fullName: "Allissa",
+      username: "ahacker15",
       email: "ahacker15@illinois.edu",
       password: "4VjqD2Nn8",
       city: "Hongshan",
@@ -18119,7 +18161,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b7f7000012",
-      name: "Teodoro",
+      fullName: "Teodoro",
+      username: "tkeenleyside16",
       email: "tkeenleyside16@chron.com",
       password: "TrAxjYR54",
       city: "Ambian",
@@ -18136,7 +18179,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b7f7000013",
-      name: "Chickie",
+      fullName: "Chickie",
+      username: "cdebill17",
       email: "cdebill17@cnn.com",
       password: "of0RjLpP",
       city: "Xingpinglu",
@@ -18155,7 +18199,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b7f7000014",
-      name: "Yardley",
+      fullName: "Yardley",
+      username: "yrestieaux18",
       email: "yrestieaux18@google.com.hk",
       password: "6HDQYk",
       city: "Kirovsk",
@@ -18178,7 +18223,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323944410002dd",
-      name: "Micheline",
+      fullName: "Micheline",
+      username: "mbarajaz19",
       email: "mbarajaz19@nhs.uk",
       password: "tPQCVZTA",
       city: "Krasnyy Luch",
@@ -18199,7 +18245,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323944410002de",
-      name: "Darrin",
+      fullName: "Darrin",
+      username: "dmylechreest1a",
       email: "dmylechreest1a@sohu.com",
       password: "V9L2N2bQm6j9",
       city: "Rakai",
@@ -18218,7 +18265,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323944410002df",
-      name: "Burr",
+      fullName: "Burr",
+      username: "bshellshear1b",
       email: "bshellshear1b@hibu.com",
       password: "MafICMthnVZd",
       city: "Gwandu",
@@ -18231,7 +18279,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323944410002e0",
-      name: "Ring",
+      fullName: "Ring",
+      username: "rwollaston1c",
       email: "rwollaston1c@slashdot.org",
       password: "V8opKuIyr8S",
       city: "Buenos Aires",
@@ -18255,7 +18304,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323944410002e1",
-      name: "Carce",
+      fullName: "Carce",
+      username: "cgedney1d",
       email: "cgedney1d@google.com",
       password: "PPQPu37zpWxI",
       city: "Lagny-sur-Marne",
@@ -18279,7 +18329,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323944410002e2",
-      name: "Betteanne",
+      fullName: "Betteanne",
+      username: "bhitcham1e",
       email: "bhitcham1e@soundcloud.com",
       password: "0KtiRgeY",
       city: "Ngou",
@@ -18298,7 +18349,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323944410002e3",
-      name: "Jamison",
+      fullName: "Jamison",
+      username: "jsiggers1f",
       email: "jsiggers1f@amazon.co.jp",
       password: "RjP40jSKi",
       city: "Lyon",
@@ -18317,7 +18369,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323944410002e4",
-      name: "Mickie",
+      fullName: "Mickie",
+      username: "mtaill1g",
       email: "mtaill1g@newsvine.com",
       password: "OPUob50iBIbS",
       city: "‘Alāqahdārī Kirān wa Munjān",
@@ -18341,7 +18394,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323944410002e5",
-      name: "Suki",
+      fullName: "Suki",
+      username: "sondrak1h",
       email: "sondrak1h@sciencedirect.com",
       password: "KUPXyFLRW8A",
       city: "Boston",
@@ -18361,7 +18415,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323944410002e6",
-      name: "Brynna",
+      fullName: "Brynna",
+      username: "bluebbert1i",
       email: "bluebbert1i@mac.com",
       password: "16FBKEbQF",
       city: "Pakel",
@@ -18383,7 +18438,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323944410002e7",
-      name: "Larine",
+      fullName: "Larine",
+      username: "lcivitillo1j",
       email: "lcivitillo1j@weibo.com",
       password: "P5YPy95",
       city: "Kumba",
@@ -18401,7 +18457,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323944410002e8",
-      name: "Crin",
+      fullName: "Crin",
+      username: "cburniston1k",
       email: "cburniston1k@opera.com",
       password: "DoUGAfWA",
       city: "Portela",
@@ -18419,7 +18476,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323944410002e9",
-      name: "Garrett",
+      fullName: "Garrett",
+      username: "gklassmann1l",
       email: "gklassmann1l@vistaprint.com",
       password: "nIaVyzp8M1",
       city: "Ajaccio",
@@ -18437,7 +18495,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323944410002ea",
-      name: "Daron",
+      fullName: "Daron",
+      username: "dolochan1m",
       email: "dolochan1m@parallels.com",
       password: "UTviIGfwFM6A",
       city: "Magtaking",
@@ -18454,7 +18513,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323944410002eb",
-      name: "Karmen",
+      fullName: "Karmen",
+      username: "kspoor1n",
       email: "kspoor1n@msu.edu",
       password: "c0kFujPKV",
       city: "Paris 19",
@@ -18478,7 +18538,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d81e000006",
-      name: "Zorana",
+      fullName: "Zorana",
+      username: "zkoppen1o",
       email: "zkoppen1o@printfriendly.com",
       password: "bd3t1lx",
       city: "Yaguarón",
@@ -18500,7 +18561,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d81e000007",
-      name: "Sabina",
+      fullName: "Sabina",
+      username: "stearney1p",
       email: "stearney1p@prlog.org",
       password: "a9ACXn0ocWe",
       city: "Boavista",
@@ -18513,7 +18575,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d81e000008",
-      name: "Cyndia",
+      fullName: "Cyndia",
+      username: "cmarquet1q",
       email: "cmarquet1q@zimbio.com",
       password: "hX2qMjGXic",
       city: "Santa Cruz de la Sierra",
@@ -18534,7 +18597,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d81e000009",
-      name: "Swen",
+      fullName: "Swen",
+      username: "skalaher1r",
       email: "skalaher1r@amazonaws.com",
       password: "1vDUOkJO",
       city: "Tongquan",
@@ -18555,7 +18619,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d81e00000a",
-      name: "Britte",
+      fullName: "Britte",
+      username: "bmacmichael1s",
       email: "bmacmichael1s@archive.org",
       password: "3QiIYPcq7KTV",
       city: "Dolo",
@@ -18572,7 +18637,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d81e00000b",
-      name: "Ara",
+      fullName: "Ara",
+      username: "afozzard1t",
       email: "afozzard1t@japanpost.jp",
       password: "lEJfuI7V",
       city: "Cincinnati",
@@ -18589,7 +18655,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d81e00000c",
-      name: "Arv",
+      fullName: "Arv",
+      username: "ahouseman1u",
       email: "ahouseman1u@usa.gov",
       password: "Tdj392C7Cz",
       city: "Lamovita",
@@ -18610,7 +18677,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d81e00000d",
-      name: "Fernanda",
+      fullName: "Fernanda",
+      username: "fcoye1v",
       email: "fcoye1v@flickr.com",
       password: "Sh63Kwbl8pM",
       city: "Taikang",
@@ -18623,7 +18691,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d81e00000e",
-      name: "Berenice",
+      fullName: "Berenice",
+      username: "bpedgrift1w",
       email: "bpedgrift1w@europa.eu",
       password: "KwHuinZ1EKM",
       city: "Kusak",
@@ -18644,7 +18713,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d81e00000f",
-      name: "Juan",
+      fullName: "Juan",
+      username: "jtyre1x",
       email: "jtyre1x@biblegateway.com",
       password: "1SzKUUzdFZ0x",
       city: "Orleans",
@@ -18667,7 +18737,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d81e000010",
-      name: "Dael",
+      fullName: "Dael",
+      username: "dheaton1y",
       email: "dheaton1y@php.net",
       password: "62nv1o",
       city: "Dongfanghong",
@@ -18680,7 +18751,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d81e000011",
-      name: "Creigh",
+      fullName: "Creigh",
+      username: "ckopta1z",
       email: "ckopta1z@weather.com",
       password: "OKFu5rviF",
       city: "Sandy Bay",
@@ -18700,7 +18772,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d81e000012",
-      name: "Ad",
+      fullName: "Ad",
+      username: "aguare20",
       email: "aguare20@shinystat.com",
       password: "L0BIFD5IakBc",
       city: "Kadubera",
@@ -18722,7 +18795,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d81e000013",
-      name: "Pedro",
+      fullName: "Pedro",
+      username: "psplevins21",
       email: "psplevins21@delicious.com",
       password: "bKVRSxbldcHH",
       city: "Preobrazhenka",
@@ -18735,7 +18809,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d81e000014",
-      name: "Grannie",
+      fullName: "Grannie",
+      username: "gstaton22",
       email: "gstaton22@bluehost.com",
       password: "txoJym1U363",
       city: "Taboão da Serra",
@@ -18753,7 +18828,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032390a34000318",
-      name: "Adan",
+      fullName: "Adan",
+      username: "atheodore23",
       email: "atheodore23@china.com.cn",
       password: "uJ3n7oROznmN",
       city: "Boncong",
@@ -18766,7 +18842,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032390a34000319",
-      name: "Wakefield",
+      fullName: "Wakefield",
+      username: "wfri24",
       email: "wfri24@ovh.net",
       password: "FWpvBG",
       city: "Pantanal",
@@ -18779,7 +18856,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032390a3400031a",
-      name: "Noami",
+      fullName: "Noami",
+      username: "nsnoxell25",
       email: "nsnoxell25@bing.com",
       password: "4nWHfBnL",
       city: "Margahayukencana",
@@ -18800,7 +18878,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032390a3400031b",
-      name: "Ina",
+      fullName: "Ina",
+      username: "icooksey26",
       email: "icooksey26@sfgate.com",
       password: "nkdwh8TvnhQ",
       city: "Outapi",
@@ -18813,7 +18892,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032390a3400031c",
-      name: "Donielle",
+      fullName: "Donielle",
+      username: "djeannin27",
       email: "djeannin27@ebay.co.uk",
       password: "k88MiJtJ",
       city: "Sakaraha",
@@ -18826,7 +18906,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032390a3400031d",
-      name: "Rubi",
+      fullName: "Rubi",
+      username: "rtritton28",
       email: "rtritton28@skype.com",
       password: "YLRuKAPSWu",
       city: "Damu",
@@ -18844,7 +18925,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032390a3400031e",
-      name: "Baxie",
+      fullName: "Baxie",
+      username: "bpentycost29",
       email: "bpentycost29@mashable.com",
       password: "3wXPmvUZ",
       city: "Gunungkencana",
@@ -18862,7 +18944,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032390a3400031f",
-      name: "Vidovic",
+      fullName: "Vidovic",
+      username: "vralfe2a",
       email: "vralfe2a@icio.us",
       password: "sxeFizpMRz8",
       city: "Luleå",
@@ -18885,7 +18968,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032390a34000320",
-      name: "Raviv",
+      fullName: "Raviv",
+      username: "rbarbour2b",
       email: "rbarbour2b@amazon.co.jp",
       password: "evZ8FG",
       city: "Mayrtup",
@@ -18905,7 +18989,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032390a34000321",
-      name: "Bailey",
+      fullName: "Bailey",
+      username: "btremblett2c",
       email: "btremblett2c@census.gov",
       password: "dHArqNqFk",
       city: "Geshan",
@@ -18918,7 +19003,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032390a34000322",
-      name: "Normand",
+      fullName: "Normand",
+      username: "npollok2d",
       email: "npollok2d@plala.or.jp",
       password: "Rz5uz4F8BeP5",
       city: "Samborondón",
@@ -18939,7 +19025,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032390a34000323",
-      name: "Danna",
+      fullName: "Danna",
+      username: "doshavlan2e",
       email: "doshavlan2e@biblegateway.com",
       password: "cRmlahK1P",
       city: "Jdaidet el Matn",
@@ -18956,7 +19043,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032390a34000324",
-      name: "Roselia",
+      fullName: "Roselia",
+      username: "rwoonton2f",
       email: "rwoonton2f@instagram.com",
       password: "78F0NR",
       city: "Montpellier",
@@ -18977,7 +19065,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032390a34000325",
-      name: "Martynne",
+      fullName: "Martynne",
+      username: "mfritter2g",
       email: "mfritter2g@google.ru",
       password: "idi4yUOLGK",
       city: "Renhe",
@@ -18994,7 +19083,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032390a34000326",
-      name: "Latia",
+      fullName: "Latia",
+      username: "lfarrier2h",
       email: "lfarrier2h@bravesites.com",
       password: "Xu9203L8Sg",
       city: "Moroni",
@@ -19018,7 +19108,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395b3300011b",
-      name: "Ariela",
+      fullName: "Ariela",
+      username: "aepinoy2i",
       email: "aepinoy2i@imdb.com",
       password: "M2dUoTH",
       city: "Mutā Khān",
@@ -19031,7 +19122,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395b3300011c",
-      name: "Farr",
+      fullName: "Farr",
+      username: "fcahn2j",
       email: "fcahn2j@e-recht24.de",
       password: "W58OwTJiC",
       city: "Lushuihe",
@@ -19051,7 +19143,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395b3300011d",
-      name: "Jehu",
+      fullName: "Jehu",
+      username: "jvitall2k",
       email: "jvitall2k@behance.net",
       password: "Z33ZpDgTR",
       city: "Waterloo",
@@ -19070,7 +19163,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395b3300011e",
-      name: "Rosemary",
+      fullName: "Rosemary",
+      username: "rseden2l",
       email: "rseden2l@aboutads.info",
       password: "vSfBeEJmd",
       city: "Gondifelos",
@@ -19083,7 +19177,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395b3300011f",
-      name: "June",
+      fullName: "June",
+      username: "jhornig2m",
       email: "jhornig2m@webnode.com",
       password: "VKK2BM",
       city: "Lukhovka",
@@ -19096,7 +19191,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395b33000120",
-      name: "Reggie",
+      fullName: "Reggie",
+      username: "rlynagh2n",
       email: "rlynagh2n@rediff.com",
       password: "8SHPGTq55uP",
       city: "Dohār",
@@ -19120,7 +19216,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395b33000121",
-      name: "Darcy",
+      fullName: "Darcy",
+      username: "dfrancie2o",
       email: "dfrancie2o@infoseek.co.jp",
       password: "ITUsiwYCSe",
       city: "Huesca",
@@ -19142,7 +19239,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395b33000122",
-      name: "Gilemette",
+      fullName: "Gilemette",
+      username: "gkitney2p",
       email: "gkitney2p@salon.com",
       password: "Y4nNPJIqUc",
       city: "Kasturi",
@@ -19155,7 +19253,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395b33000123",
-      name: "Marley",
+      fullName: "Marley",
+      username: "mbottomer2q",
       email: "mbottomer2q@netlog.com",
       password: "qvtTuRh1XC",
       city: "Shuanghe",
@@ -19176,7 +19275,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395b33000124",
-      name: "Daune",
+      fullName: "Daune",
+      username: "dfeetham2r",
       email: "dfeetham2r@ca.gov",
       password: "S18btJ",
       city: "Keffi",
@@ -19195,7 +19295,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395b33000125",
-      name: "Reese",
+      fullName: "Reese",
+      username: "rsturridge2s",
       email: "rsturridge2s@posterous.com",
       password: "YYXxL9QA8Bi",
       city: "Guanli",
@@ -19214,7 +19315,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395b33000126",
-      name: "Nanine",
+      fullName: "Nanine",
+      username: "ncockshot2t",
       email: "ncockshot2t@aol.com",
       password: "4hF6YU9",
       city: "An Naşr",
@@ -19227,7 +19329,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395b33000127",
-      name: "Holly-anne",
+      fullName: "Holly-anne",
+      username: "hvellden2u",
       email: "hvellden2u@canalblog.com",
       password: "td9XFYJyb",
       city: "Klatovy",
@@ -19249,7 +19352,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395b33000128",
-      name: "Agna",
+      fullName: "Agna",
+      username: "atoten2v",
       email: "atoten2v@multiply.com",
       password: "KrMmUt4G",
       city: "Néa Smýrni",
@@ -19269,7 +19373,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395b33000129",
-      name: "Marlie",
+      fullName: "Marlie",
+      username: "mkearey2w",
       email: "mkearey2w@netscape.com",
       password: "QfyGnAZuf77",
       city: "Tagbacan Ibaba",
@@ -19292,7 +19397,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d591000318",
-      name: "Naoma",
+      fullName: "Naoma",
+      username: "nshutler2x",
       email: "nshutler2x@stanford.edu",
       password: "BDqrNY6",
       city: "Eisen",
@@ -19310,7 +19416,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d591000319",
-      name: "Nicholle",
+      fullName: "Nicholle",
+      username: "nducarel2y",
       email: "nducarel2y@sourceforge.net",
       password: "Xto6DJlbDQW",
       city: "Ryazan’",
@@ -19328,7 +19435,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d59100031a",
-      name: "Trista",
+      fullName: "Trista",
+      username: "tponter2z",
       email: "tponter2z@dailymail.co.uk",
       password: "ci3nFCSgW",
       city: "Santo António",
@@ -19349,7 +19457,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d59100031b",
-      name: "Westleigh",
+      fullName: "Westleigh",
+      username: "wmedlin30",
       email: "wmedlin30@newsvine.com",
       password: "63jUIO1",
       city: "Chum Phae",
@@ -19368,7 +19477,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d59100031c",
-      name: "Rickert",
+      fullName: "Rickert",
+      username: "rliggins31",
       email: "rliggins31@photobucket.com",
       password: "3QDXzlM77H0N",
       city: "Salavat",
@@ -19388,7 +19498,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d59100031d",
-      name: "Buckie",
+      fullName: "Buckie",
+      username: "bstuther32",
       email: "bstuther32@dell.com",
       password: "7OD3NQJiGyE",
       city: "Sparks",
@@ -19406,7 +19517,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d59100031e",
-      name: "Ryan",
+      fullName: "Ryan",
+      username: "rbourton33",
       email: "rbourton33@sogou.com",
       password: "x9kJJU1RCQc",
       city: "Eadestown",
@@ -19430,7 +19542,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d59100031f",
-      name: "Lilian",
+      fullName: "Lilian",
+      username: "ldaines34",
       email: "ldaines34@wordpress.com",
       password: "Te6Xd0",
       city: "Siqiao",
@@ -19450,7 +19563,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d591000320",
-      name: "Rene",
+      fullName: "Rene",
+      username: "rhearnaman35",
       email: "rhearnaman35@techcrunch.com",
       password: "lAV8WJRM",
       city: "Dongqu",
@@ -19468,7 +19582,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d591000321",
-      name: "Caesar",
+      fullName: "Caesar",
+      username: "cridwood36",
       email: "cridwood36@w3.org",
       password: "axjZaQ6DR",
       city: "Mella",
@@ -19491,7 +19606,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d591000322",
-      name: "Catriona",
+      fullName: "Catriona",
+      username: "cwormell37",
       email: "cwormell37@prnewswire.com",
       password: "7Yo0coFxq",
       city: "Morrito",
@@ -19504,7 +19620,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d591000323",
-      name: "Constantino",
+      fullName: "Constantino",
+      username: "cmarcam38",
       email: "cmarcam38@opensource.org",
       password: "S7xFukckSS",
       city: "Gryfów Śląski",
@@ -19521,7 +19638,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d591000324",
-      name: "Sarine",
+      fullName: "Sarine",
+      username: "sfaughnan39",
       email: "sfaughnan39@homestead.com",
       password: "FTnB07H65C26",
       city: "Saint-Brieuc",
@@ -19534,7 +19652,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d591000325",
-      name: "Hobie",
+      fullName: "Hobie",
+      username: "hditt3a",
       email: "hditt3a@eepurl.com",
       password: "1DtYlOGa",
       city: "Toba",
@@ -19552,7 +19671,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d591000326",
-      name: "Steward",
+      fullName: "Steward",
+      username: "swoolford3b",
       email: "swoolford3b@blogspot.com",
       password: "YogoVS9wrgZ",
       city: "Charlton",
@@ -19573,7 +19693,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395694000006",
-      name: "Randall",
+      fullName: "Randall",
+      username: "rmathivat3c",
       email: "rmathivat3c@yolasite.com",
       password: "siGOrj04Q",
       city: "Abiko",
@@ -19586,7 +19707,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395694000007",
-      name: "Melloney",
+      fullName: "Melloney",
+      username: "mreynoldson3d",
       email: "mreynoldson3d@cmu.edu",
       password: "xOvuLdoie",
       city: "Fumin",
@@ -19599,7 +19721,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395694000008",
-      name: "Onida",
+      fullName: "Onida",
+      username: "oaherne3e",
       email: "oaherne3e@gmpg.org",
       password: "GKUSDad106",
       city: "Wum",
@@ -19623,7 +19746,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395694000009",
-      name: "Winny",
+      fullName: "Winny",
+      username: "wbicknell3f",
       email: "wbicknell3f@taobao.com",
       password: "EJRM6LjGs",
       city: "Singgugu",
@@ -19644,7 +19768,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239569400000a",
-      name: "Dunn",
+      fullName: "Dunn",
+      username: "dgores3g",
       email: "dgores3g@marriott.com",
       password: "kM964VZQ5p",
       city: "Ala-Buka",
@@ -19657,7 +19782,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239569400000b",
-      name: "Hamilton",
+      fullName: "Hamilton",
+      username: "hrowledge3h",
       email: "hrowledge3h@geocities.com",
       password: "xE5x1IlUV1jB",
       city: "Maputsoe",
@@ -19681,7 +19807,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239569400000c",
-      name: "Giorgio",
+      fullName: "Giorgio",
+      username: "ghelin3i",
       email: "ghelin3i@youtube.com",
       password: "g7ry43mPzW",
       city: "Viljoenskroon",
@@ -19699,7 +19826,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239569400000d",
-      name: "Devland",
+      fullName: "Devland",
+      username: "ddennington3j",
       email: "ddennington3j@stumbleupon.com",
       password: "culgefrU",
       city: "Tiaong",
@@ -19721,7 +19849,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239569400000e",
-      name: "Barrett",
+      fullName: "Barrett",
+      username: "bchasle3k",
       email: "bchasle3k@jugem.jp",
       password: "qtZqLy",
       city: "Paclolo",
@@ -19738,7 +19867,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239569400000f",
-      name: "Kipp",
+      fullName: "Kipp",
+      username: "ksieve3l",
       email: "ksieve3l@elegantthemes.com",
       password: "1ZUpaYYgpN4q",
       city: "Aheloy",
@@ -19761,7 +19891,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395694000010",
-      name: "Luca",
+      fullName: "Luca",
+      username: "llandreth3m",
       email: "llandreth3m@sfgate.com",
       password: "hmlKklk",
       city: "Breu",
@@ -19781,7 +19912,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395694000011",
-      name: "Aline",
+      fullName: "Aline",
+      username: "acrossby3n",
       email: "acrossby3n@telegraph.co.uk",
       password: "EigEwd1M",
       city: "Lengshuijing",
@@ -19805,7 +19937,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395694000012",
-      name: "Emelen",
+      fullName: "Emelen",
+      username: "ependleberry3o",
       email: "ependleberry3o@google.com.br",
       password: "iduXoB",
       city: "Darfield",
@@ -19829,7 +19962,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395694000013",
-      name: "Tarrah",
+      fullName: "Tarrah",
+      username: "tbussey3p",
       email: "tbussey3p@cloudflare.com",
       password: "c4HOhf24lu",
       city: "Kinlough",
@@ -19848,7 +19982,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032395694000014",
-      name: "Hazel",
+      fullName: "Hazel",
+      username: "hlittlekit3q",
       email: "hlittlekit3q@smugmug.com",
       password: "jvVjNUYzxA",
       city: "Mariestad",
@@ -19869,7 +20004,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032396b8e000006",
-      name: "Cassy",
+      fullName: "Cassy",
+      username: "hlittlekit3q",
       email: "cmardle3r@webmd.com",
       password: "5zJn7Ox",
       city: "Silae",
@@ -19886,7 +20022,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032396b8e000007",
-      name: "Felecia",
+      fullName: "Felecia",
+      username: "fofarris3s",
       email: "fofarris3s@yale.edu",
       password: "HFgT33jb",
       city: "Västerås",
@@ -19910,7 +20047,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032396b8e000008",
-      name: "Cathee",
+      fullName: "Cathee",
+      username: "cmccarrison3t",
       email: "cmccarrison3t@youtu.be",
       password: "4wC6xJZ6",
       city: "Yaojiagou",
@@ -19927,7 +20065,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032396b8e000009",
-      name: "Stevy",
+      fullName: "Stevy",
+      username: "smugglestone3u",
       email: "smugglestone3u@icio.us",
       password: "SQWNnZ7xg",
       city: "La Libertad",
@@ -19946,7 +20085,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032396b8e00000a",
-      name: "Salvador",
+      fullName: "Salvador",
+      username: "sspinelli3v",
       email: "sspinelli3v@icq.com",
       password: "sR3JsfGn",
       city: "Yelets",
@@ -19969,7 +20109,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032396b8e00000b",
-      name: "Lorena",
+      fullName: "Lorena",
+      username: "lneem3w",
       email: "lneem3w@ucsd.edu",
       password: "pTeETT3UBT",
       city: "Chenchang",
@@ -19988,7 +20129,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032396b8e00000c",
-      name: "Virge",
+      fullName: "Virge",
+      username: "vstevenson3x",
       email: "vstevenson3x@stanford.edu",
       password: "s2Tnn6WAO0Am",
       city: "Megulung",
@@ -20009,7 +20151,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032396b8e00000d",
-      name: "Justine",
+      fullName: "Justine",
+      username: "jkohneke3y",
       email: "jkohneke3y@addthis.com",
       password: "fEUSPd0F",
       city: "Tangqian",
@@ -20028,7 +20171,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032396b8e00000e",
-      name: "Drucill",
+      fullName: "Drucill",
+      username: "dellingworth3z",
       email: "dellingworth3z@alexa.com",
       password: "prdjVFT",
       city: "Soa",
@@ -20051,7 +20195,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032396b8e00000f",
-      name: "Hughie",
+      fullName: "Hughie",
+      username: "hlowsely40",
       email: "hlowsely40@netlog.com",
       password: "PjkI7RoDLDg4",
       city: "Jubao",
@@ -20074,7 +20219,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032396b8e000010",
-      name: "Barbee",
+      fullName: "Barbee",
+      username: "bsleith41",
       email: "bsleith41@indiatimes.com",
       password: "5q8c1w3cj5QV",
       city: "Bāsht",
@@ -20096,7 +20242,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032396b8e000011",
-      name: "Ibbie",
+      fullName: "Ibbie",
+      username: "ibelt42",
       email: "ibelt42@marketwatch.com",
       password: "RR3uTU",
       city: "Guaraciaba do Norte",
@@ -20114,7 +20261,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032396b8e000012",
-      name: "Kayne",
+      fullName: "Kayne",
+      username: "kfronks43",
       email: "kfronks43@about.me",
       password: "OjxqE3fqmH",
       city: "Krasnohrad",
@@ -20134,7 +20282,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032396b8e000013",
-      name: "Gradeigh",
+      fullName: "Gradeigh",
+      username: "gonions44",
       email: "gonions44@utexas.edu",
       password: "M8OkFdv0a",
       city: "Hīsh",
@@ -20155,7 +20304,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032396b8e000014",
-      name: "Bev",
+      fullName: "Bev",
+      username: "bandriessen45",
       email: "bandriessen45@japanpost.jp",
       password: "zKd7mUrrHI",
       city: "Johnson City",
@@ -20172,7 +20322,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239bef000011b",
-      name: "Gaylord",
+      fullName: "Gaylord",
+      username: "gkitteringham46",
       email: "gkitteringham46@youku.com",
       password: "0MgXUN",
       city: "Ash Shajarah",
@@ -20195,7 +20346,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239bef000011c",
-      name: "Terrance",
+      fullName: "Terrance",
+      username: "tcars47",
       email: "tcars47@smugmug.com",
       password: "JbUdjNEa",
       city: "Mazamet",
@@ -20213,7 +20365,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239bef000011d",
-      name: "Melania",
+      fullName: "Melania",
+      username: "mmenaul48",
       email: "mmenaul48@360.cn",
       password: "2zQ9orB",
       city: "E’zhou",
@@ -20235,7 +20388,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239bef000011e",
-      name: "Ferdie",
+      fullName: "Ferdie",
+      username: "fanthon49",
       email: "fanthon49@ed.gov",
       password: "9lAbUy",
       city: "København",
@@ -20259,7 +20413,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239bef000011f",
-      name: "Jasmina",
+      fullName: "Jasmina",
+      username: "jchatwood4a",
       email: "jchatwood4a@istockphoto.com",
       password: "vL5A2uJ",
       city: "Guadalupe",
@@ -20279,7 +20434,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239bef0000120",
-      name: "Remy",
+      fullName: "Remy",
+      username: "rwiseman4b",
       email: "rwiseman4b@nymag.com",
       password: "I2ndvKcd4ADe",
       city: "Марино",
@@ -20298,7 +20454,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239bef0000121",
-      name: "Costa",
+      fullName: "Costa",
+      username: "cdayer4c",
       email: "cdayer4c@hatena.ne.jp",
       password: "Zn0O8SPY",
       city: "Malá Strana",
@@ -20321,7 +20478,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239bef0000122",
-      name: "Anallese",
+      fullName: "Anallese",
+      username: "astollberg4d",
       email: "astollberg4d@flickr.com",
       password: "jBpneOlhg",
       city: "Pingle",
@@ -20345,7 +20503,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239bef0000123",
-      name: "Whitney",
+      fullName: "Whitney",
+      username: "wbradshaw4e",
       email: "wbradshaw4e@hubpages.com",
       password: "tcmX48S",
       city: "Orléans",
@@ -20369,7 +20528,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239bef0000124",
-      name: "Sheffy",
+      fullName: "Sheffy",
+      username: "svittore4f",
       email: "svittore4f@google.de",
       password: "N2bbr5",
       city: "Calvário",
@@ -20392,7 +20552,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239bef0000125",
-      name: "Danette",
+      fullName: "Danette",
+      username: "druter4g",
       email: "druter4g@bbb.org",
       password: "nMuzWfYIQphI",
       city: "Xiushi",
@@ -20405,7 +20566,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239bef0000126",
-      name: "Kalina",
+      fullName: "Kalina",
+      username: "klhommee4h",
       email: "klhommee4h@who.int",
       password: "JtRw3O",
       city: "Wurigelebur",
@@ -20418,7 +20580,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239bef0000127",
-      name: "Roseline",
+      fullName: "Roseline",
+      username: "rraycroft4i",
       email: "rraycroft4i@indiatimes.com",
       password: "OvqxlzU",
       city: "Mayhan",
@@ -20436,7 +20599,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239bef0000128",
-      name: "Terence",
+      fullName: "Terence",
+      username: "tdyhouse4j",
       email: "tdyhouse4j@whitehouse.gov",
       password: "ffwaZkz",
       city: "Lazaro Cardenas",
@@ -20459,7 +20623,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239bef0000129",
-      name: "Haily",
+      fullName: "Haily",
+      username: "hdurie4k",
       email: "hdurie4k@opensource.org",
       password: "2xQMMuqQklK",
       city: "Putatbasiun",
@@ -20478,7 +20643,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032394c4900011b",
-      name: "Joell",
+      fullName: "Joell",
+      username: "jaldus4l",
       email: "jaldus4l@exblog.jp",
       password: "kibbK26n",
       city: "Chocianów",
@@ -20498,7 +20664,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032394c4900011c",
-      name: "Mindy",
+      fullName: "Mindy",
+      username: "mbestwerthick4m",
       email: "mbestwerthick4m@over-blog.com",
       password: "Mef2ml",
       city: "Hannō",
@@ -20518,7 +20685,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032394c4900011d",
-      name: "Lib",
+      fullName: "Lib",
+      username: "lgutridge4n",
       email: "lgutridge4n@cloudflare.com",
       password: "1uZqjLMsg",
       city: "Maki",
@@ -20537,7 +20705,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032394c4900011e",
-      name: "Melisa",
+      fullName: "Melisa",
+      username: "meagland4o",
       email: "meagland4o@homestead.com",
       password: "9AaVQYZeSv",
       city: "Ouani",
@@ -20560,7 +20729,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032394c4900011f",
-      name: "Laurie",
+      fullName: "Laurie",
+      username: "lragg4p",
       email: "lragg4p@paginegialle.it",
       password: "aw3d8uBd0ly",
       city: "Khoyniki",
@@ -20573,7 +20743,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032394c49000120",
-      name: "Seamus",
+      fullName: "Seamus",
+      username: "slabbati4q",
       email: "slabbati4q@hao123.com",
       password: "jIXcqz1dhEof",
       city: "Arnelas",
@@ -20591,7 +20762,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032394c49000121",
-      name: "Clarissa",
+      fullName: "Clarissa",
+      username: "cfarguhar4r",
       email: "cfarguhar4r@wunderground.com",
       password: "Oaeu2i",
       city: "Nizao",
@@ -20610,7 +20782,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032394c49000122",
-      name: "Eldredge",
+      fullName: "Eldredge",
+      username: "eokker4s",
       email: "eokker4s@cnbc.com",
       password: "7ajSQnklyex",
       city: "Kuta",
@@ -20627,7 +20800,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032394c49000123",
-      name: "Stanislaw",
+      fullName: "Stanislaw",
+      username: "smeese4t",
       email: "smeese4t@dot.gov",
       password: "CnrcjaTecsWg",
       city: "Pyatovskiy",
@@ -20650,7 +20824,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032394c49000124",
-      name: "Cassius",
+      fullName: "Cassius",
+      username: "ccardiff4u",
       email: "ccardiff4u@si.edu",
       password: "eoYmlT",
       city: "Soroti",
@@ -20663,7 +20838,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032394c49000125",
-      name: "Vlad",
+      fullName: "Vlad",
+      username: "vsackler4v",
       email: "vsackler4v@simplemachines.org",
       password: "UrG0pJLe",
       city: "Kiernozia",
@@ -20680,7 +20856,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032394c49000126",
-      name: "Rita",
+      fullName: "Rita",
+      username: "vsackler4v",
       email: "rbrann4w@csmonitor.com",
       password: "8FgzHT",
       city: "Bowang",
@@ -20693,7 +20870,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032394c49000127",
-      name: "Ianthe",
+      fullName: "Ianthe",
+      username: "ikeeffe4x",
       email: "ikeeffe4x@indiatimes.com",
       password: "nHsjad98",
       city: "Sepekov",
@@ -20714,7 +20892,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032394c49000128",
-      name: "Findley",
+      fullName: "Findley",
+      username: "fmaccracken4y",
       email: "fmaccracken4y@1und1.de",
       password: "FMthqF75",
       city: "Canedo",
@@ -20727,7 +20906,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032394c49000129",
-      name: "Myron",
+      fullName: "Myron",
+      username: "mguilliland4z",
       email: "mguilliland4z@woothemes.com",
       password: "tYZgNq5aIdS",
       city: "Al Ḩarāk",
@@ -20746,7 +20926,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239528f000006",
-      name: "Melicent",
+      fullName: "Melicent",
+      username: "mvernazza50",
       email: "mvernazza50@nydailynews.com",
       password: "SR5Nd4WHr",
       city: "Longotea",
@@ -20769,7 +20950,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239528f000007",
-      name: "Wilhelm",
+      fullName: "Wilhelm",
+      username: "wwonter51",
       email: "wwonter51@dion.ne.jp",
       password: "ZyH44FdQ1N",
       city: "Pathein",
@@ -20790,7 +20972,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239528f000008",
-      name: "Alejandro",
+      fullName: "Alejandro",
+      username: "awathell52",
       email: "awathell52@craigslist.org",
       password: "T1fePLCv3",
       city: "Taling Chan",
@@ -20809,7 +20992,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239528f000009",
-      name: "Taffy",
+      fullName: "Taffy",
+      username: "tduthy53",
       email: "tduthy53@mozilla.com",
       password: "UO2nBF2PG",
       city: "Yili",
@@ -20832,7 +21016,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239528f00000a",
-      name: "Margarita",
+      fullName: "Margarita",
+      username: "mnancarrow54",
       email: "mnancarrow54@tinypic.com",
       password: "EohJN94F",
       city: "Haebaru",
@@ -20845,7 +21030,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239528f00000b",
-      name: "Titos",
+      fullName: "Titos",
+      username: "tsimkiss55",
       email: "tsimkiss55@cocolog-nifty.com",
       password: "u4jf4zaUSx",
       city: "Caomiao",
@@ -20858,7 +21044,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239528f00000c",
-      name: "Delcine",
+      fullName: "Delcine",
+      username: "dcaton56",
       email: "dcaton56@plala.or.jp",
       password: "RMJAwlLkrO6D",
       city: "Stockholm",
@@ -20875,7 +21062,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239528f00000d",
-      name: "Zora",
+      fullName: "Zora",
+      username: "zfratczak57",
       email: "zfratczak57@mail.ru",
       password: "VGPlFF",
       city: "Troitsk",
@@ -20888,7 +21076,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239528f00000e",
-      name: "Connor",
+      fullName: "Connor",
+      username: "cmonget58",
       email: "cmonget58@technorati.com",
       password: "ckV0HOb1jd",
       city: "Mmathubudukwane",
@@ -20909,7 +21098,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239528f00000f",
-      name: "Mordy",
+      fullName: "Mordy",
+      username: "mfass59",
       email: "mfass59@skyrock.com",
       password: "d956iJrXt",
       city: "Kanturk",
@@ -20929,7 +21119,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239528f000010",
-      name: "Murdock",
+      fullName: "Murdock",
+      username: "mdary5a",
       email: "mdary5a@comsenz.com",
       password: "vOYXsMa",
       city: "Yancheng",
@@ -20950,7 +21141,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239528f000011",
-      name: "Worthy",
+      fullName: "Worthy",
+      username: "wgawn5b",
       email: "wgawn5b@symantec.com",
       password: "zZ5h25",
       city: "Montpellier",
@@ -20972,7 +21164,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239528f000012",
-      name: "Olenolin",
+      fullName: "Olenolin",
+      username: "olaverty5c",
       email: "olaverty5c@networkadvertising.org",
       password: "Ezd5bHCy",
       city: "Gopaan",
@@ -20992,7 +21185,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239528f000013",
-      name: "Leilah",
+      fullName: "Leilah",
+      username: "lcrosse5d",
       email: "lcrosse5d@google.com.hk",
       password: "sfFhchYqoJ6",
       city: "Turochak",
@@ -21009,7 +21203,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239528f000014",
-      name: "Finley",
+      fullName: "Finley",
+      username: "fgrieger5e",
       email: "fgrieger5e@wikimedia.org",
       password: "azQNkwXmsfFl",
       city: "Yaroslavl",
@@ -21032,7 +21227,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239f09e00017f",
-      name: "Leda",
+      fullName: "Leda",
+      username: "lemery5f",
       email: "lemery5f@xrea.com",
       password: "4A33FZ",
       city: "Merapit",
@@ -21051,7 +21247,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239f09e000180",
-      name: "Oralle",
+      fullName: "Oralle",
+      username: "oclixby5g",
       email: "oclixby5g@instagram.com",
       password: "7GVtz79GSA",
       city: "Yajiwa",
@@ -21073,7 +21270,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239f09e000181",
-      name: "Teodora",
+      fullName: "Teodora",
+      username: "tleyzell5h",
       email: "tleyzell5h@cbsnews.com",
       password: "FQhIoy",
       city: "Mmathubudukwane",
@@ -21086,7 +21284,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239f09e000182",
-      name: "Muffin",
+      fullName: "Muffin",
+      username: "mdyble5i",
       email: "mdyble5i@loc.gov",
       password: "fawYMjt",
       city: "Ruy Barbosa",
@@ -21105,7 +21304,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239f09e000183",
-      name: "Lily",
+      fullName: "Lily",
+      username: "lshackleton5j",
       email: "lshackleton5j@hp.com",
       password: "K7PfmI8",
       city: "Châu Thành",
@@ -21126,7 +21326,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239f09e000184",
-      name: "Jenda",
+      fullName: "Jenda",
+      username: "jcromarty5k",
       email: "jcromarty5k@infoseek.co.jp",
       password: "J0CkgoQfCAG",
       city: "Kupchino",
@@ -21148,7 +21349,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239f09e000185",
-      name: "Wenda",
+      fullName: "Wenda",
+      username: "wespinheira5l",
       email: "wespinheira5l@bluehost.com",
       password: "ZsEWOWTsBd",
       city: "Rublëvo",
@@ -21165,7 +21367,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239f09e000186",
-      name: "Banky",
+      fullName: "Banky",
+      username: "bmacdermid5m",
       email: "bmacdermid5m@friendfeed.com",
       password: "1H8Fz5N3i",
       city: "Fengxizhai",
@@ -21187,7 +21390,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239f09e000187",
-      name: "Philippa",
+      fullName: "Philippa",
+      username: "pbottinelli5n",
       email: "pbottinelli5n@aboutads.info",
       password: "vTZjKR",
       city: "Zhangting",
@@ -21208,7 +21412,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239f09e000188",
-      name: "Uta",
+      fullName: "Uta",
+      username: "ubrickhill5o",
       email: "ubrickhill5o@amazon.de",
       password: "GVmSGHJTk",
       city: "Jinglongqiao",
@@ -21231,7 +21436,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239f09e000189",
-      name: "Leela",
+      fullName: "Leela",
+      username: "lpietruschka5p",
       email: "lpietruschka5p@blog.com",
       password: "xt8ZJG8",
       city: "Bundoc",
@@ -21244,7 +21450,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239f09e00018a",
-      name: "Franciska",
+      fullName: "Franciska",
+      username: "fhartzog5q",
       email: "fhartzog5q@wsj.com",
       password: "Gbu0dgwBqM0",
       city: "Ashford",
@@ -21257,7 +21464,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239f09e00018b",
-      name: "Jacquetta",
+      fullName: "Jacquetta",
+      username: "jphysick5r",
       email: "jphysick5r@nsw.gov.au",
       password: "diX6aKF2w",
       city: "Bīleh Savār",
@@ -21279,7 +21487,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239f09e00018c",
-      name: "Myranda",
+      fullName: "Myranda",
+      username: "mandrewartha5s",
       email: "mandrewartha5s@biblegateway.com",
       password: "laXTNM6",
       city: "Aryiropoúlion",
@@ -21292,7 +21501,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239f09e00018d",
-      name: "Vonni",
+      fullName: "Vonni",
+      username: "vbestwall5t",
       email: "vbestwall5t@twitpic.com",
       password: "IYHe7XPDvx",
       city: "Montpellier",
@@ -21315,7 +21525,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239db6900011b",
-      name: "Hilda",
+      fullName: "Hilda",
+      username: "hdarragon5u",
       email: "hdarragon5u@slate.com",
       password: "4XZkipBg",
       city: "Santo Tomás",
@@ -21336,7 +21547,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239db6900011c",
-      name: "Sigvard",
+      fullName: "Sigvard",
+      username: "slacroce5v",
       email: "slacroce5v@nps.gov",
       password: "ELp5RYekdu",
       city: "Concepcion",
@@ -21355,7 +21567,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239db6900011d",
-      name: "Burk",
+      fullName: "Burk",
+      username: "bduplan5w",
       email: "bduplan5w@dion.ne.jp",
       password: "FHWVqL",
       city: "Pong",
@@ -21375,7 +21588,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239db6900011e",
-      name: "Artemas",
+      fullName: "Artemas",
+      username: "askym5x",
       email: "askym5x@yolasite.com",
       password: "COfBiI",
       city: "Al Jubayl",
@@ -21388,7 +21602,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239db6900011f",
-      name: "Patricio",
+      fullName: "Patricio",
+      username: "pjudron5y",
       email: "pjudron5y@marketwatch.com",
       password: "V0bw0d",
       city: "Bolszewo",
@@ -21412,7 +21627,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239db69000120",
-      name: "Bil",
+      fullName: "Bil",
+      username: "bbickerdike5z",
       email: "bbickerdike5z@cnet.com",
       password: "eQUWtbbRo",
       city: "Goiás",
@@ -21431,7 +21647,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239db69000121",
-      name: "Fayre",
+      fullName: "Fayre",
+      username: "flangstone60",
       email: "flangstone60@jalbum.net",
       password: "1WtkPmy",
       city: "Sokoto",
@@ -21455,7 +21672,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239db69000122",
-      name: "Wendi",
+      fullName: "Wendi",
+      username: "wtwoohy61",
       email: "wtwoohy61@tamu.edu",
       password: "vlEpEeI3OTU",
       city: "Pompano Beach",
@@ -21468,7 +21686,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239db69000123",
-      name: "Leshia",
+      fullName: "Leshia",
+      username: "ltomasz62",
       email: "ltomasz62@washingtonpost.com",
       password: "ARbjc1",
       city: "Margasana",
@@ -21492,7 +21711,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239db69000124",
-      name: "Levon",
+      fullName: "Levon",
+      username: "lreader63",
       email: "lreader63@skype.com",
       password: "9LQ5wD",
       city: "Sobral",
@@ -21510,7 +21730,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239db69000125",
-      name: "Raimund",
+      fullName: "Raimund",
+      username: "rhanbidge64",
       email: "rhanbidge64@devhub.com",
       password: "MzDUcggLI",
       city: "Maduao",
@@ -21523,7 +21744,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239db69000126",
-      name: "Sonnnie",
+      fullName: "Sonnnie",
+      username: "sburdess65",
       email: "sburdess65@over-blog.com",
       password: "OnYtKa",
       city: "Yaozhanzi",
@@ -21541,7 +21763,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239db69000127",
-      name: "Othilie",
+      fullName: "Othilie",
+      username: "oemmott66",
       email: "oemmott66@indiatimes.com",
       password: "i4f5UE",
       city: "Khiv",
@@ -21565,7 +21788,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239db69000128",
-      name: "Gabriela",
+      fullName: "Gabriela",
+      username: "gpretty67",
       email: "gpretty67@prnewswire.com",
       password: "qG6KNu1",
       city: "Lubaczów",
@@ -21583,7 +21807,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239db69000129",
-      name: "Melodie",
+      fullName: "Melodie",
+      username: "mbraganca68",
       email: "mbraganca68@globo.com",
       password: "tHHev45",
       city: "Jindaoxia",
@@ -21606,7 +21831,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b913000006",
-      name: "Gladys",
+      fullName: "Gladys",
+      username: "gmcgeraghty69",
       email: "gmcgeraghty69@google.com.au",
       password: "18sGltgeVVA",
       city: "Bordeaux",
@@ -21625,7 +21851,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b913000007",
-      name: "Venus",
+      fullName: "Venus",
+      username: "vbenninger6a",
       email: "vbenninger6a@flickr.com",
       password: "jZupjE",
       city: "Salinas",
@@ -21638,7 +21865,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b913000008",
-      name: "Cassaundra",
+      fullName: "Cassaundra",
+      username: "cpickard6b",
       email: "cpickard6b@guardian.co.uk",
       password: "7oFBm9",
       city: "Ōita",
@@ -21655,7 +21883,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b913000009",
-      name: "Grace",
+      fullName: "Grace",
+      username: "glodge6c",
       email: "glodge6c@pinterest.com",
       password: "HkgJLpuoDKP",
       city: "Danyang",
@@ -21668,7 +21897,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b91300000a",
-      name: "Merrielle",
+      fullName: "Merrielle",
+      username: "mdreus6d",
       email: "mdreus6d@altervista.org",
       password: "CEttQSx2W",
       city: "Jiabeiyan",
@@ -21691,7 +21921,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b91300000b",
-      name: "Derward",
+      fullName: "Derward",
+      username: "dstannah6e",
       email: "dstannah6e@nbcnews.com",
       password: "HfVKoeDRlz9j",
       city: "Jieduo",
@@ -21713,7 +21944,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b91300000c",
-      name: "Novelia",
+      fullName: "Novelia",
+      username: "ncossentine6f",
       email: "ncossentine6f@free.fr",
       password: "bdhdWjbqdf3",
       city: "Banjarejo",
@@ -21733,7 +21965,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b91300000d",
-      name: "Odo",
+      fullName: "Odo",
+      username: "orochewell6g",
       email: "orochewell6g@dion.ne.jp",
       password: "dPF6mLBv0SuY",
       city: "Janiuay",
@@ -21755,7 +21988,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b91300000e",
-      name: "Torey",
+      fullName: "Torey",
+      username: "twalcher6h",
       email: "twalcher6h@friendfeed.com",
       password: "A5buke",
       city: "Paris 19",
@@ -21773,7 +22007,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b91300000f",
-      name: "Bryce",
+      fullName: "Bryce",
+      username: "basipenko6i",
       email: "basipenko6i@ebay.com",
       password: "7VKYN5h",
       city: "Raofeng",
@@ -21791,7 +22026,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b913000010",
-      name: "Freedman",
+      fullName: "Freedman",
+      username: "fhollingsby6j",
       email: "fhollingsby6j@moonfruit.com",
       password: "CQ2p8noYx",
       city: "Shisui",
@@ -21811,7 +22047,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b913000011",
-      name: "Traci",
+      fullName: "Traci",
+      username: "twilmore6k",
       email: "twilmore6k@csmonitor.com",
       password: "rf6p2O4",
       city: "Tulay na Lupa",
@@ -21829,7 +22066,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b913000012",
-      name: "Umberto",
+      fullName: "Umberto",
+      username: "ugrinyov6l",
       email: "ugrinyov6l@dropbox.com",
       password: "Wq0cc3",
       city: "Jinshan",
@@ -21848,7 +22086,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b913000013",
-      name: "Honor",
+      fullName: "Honor",
+      username: "hridoutt6m",
       email: "hridoutt6m@networksolutions.com",
       password: "5I2Pe8",
       city: "Tyazhinskiy",
@@ -21867,7 +22106,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239b913000014",
-      name: "Daffy",
+      fullName: "Daffy",
+      username: "dveltmann6n",
       email: "dveltmann6n@t-online.de",
       password: "DBQMiS0fN",
       city: "Karata",
@@ -21891,7 +22131,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239cdc5000006",
-      name: "Rachael",
+      fullName: "Rachael",
+      username: "rgoddman6o",
       email: "rgoddman6o@mlb.com",
       password: "UG57wcIt7",
       city: "Río Guayabal de Yateras",
@@ -21908,7 +22149,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239cdc5000007",
-      name: "Juan",
+      fullName: "Juan",
+      username: "jdewilde6p",
       email: "jdewilde6p@cam.ac.uk",
       password: "PZYXE7ax",
       city: "Longqiao",
@@ -21921,7 +22163,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239cdc5000008",
-      name: "Jecho",
+      fullName: "Jecho",
+      username: "jgolthorpp6q",
       email: "jgolthorpp6q@quantcast.com",
       password: "6NqJWNf",
       city: "Krasnogvardeyets",
@@ -21941,7 +22184,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239cdc5000009",
-      name: "Shanda",
+      fullName: "Shanda",
+      username: "spumfrett6r",
       email: "spumfrett6r@skyrock.com",
       password: "qwjl5mvTIUA",
       city: "Paratunka",
@@ -21958,7 +22202,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239cdc500000a",
-      name: "Tait",
+      fullName: "Tait",
+      username: "tmartynka6s",
       email: "tmartynka6s@linkedin.com",
       password: "heNoyOjX",
       city: "Cangkuang",
@@ -21978,7 +22223,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239cdc500000b",
-      name: "Helli",
+      fullName: "Helli",
+      username: "hdmitr6t",
       email: "hdmitr6t@harvard.edu",
       password: "EHv2GQ",
       city: "Jadi",
@@ -21991,7 +22237,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239cdc500000c",
-      name: "Christiane",
+      fullName: "Christiane",
+      username: "crenihan6u",
       email: "crenihan6u@utexas.edu",
       password: "T4atNfiQoC",
       city: "Joubb Jannîne",
@@ -22009,7 +22256,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239cdc500000d",
-      name: "Hurley",
+      fullName: "Hurley",
+      username: "htante6v",
       email: "htante6v@toplist.cz",
       password: "LYdD0i",
       city: "Vera",
@@ -22022,7 +22270,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239cdc500000e",
-      name: "Lammond",
+      fullName: "Lammond",
+      username: "lcoward6w",
       email: "lcoward6w@simplemachines.org",
       password: "fye3ajD6",
       city: "Vysočany",
@@ -22045,8 +22294,9 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239cdc500000f",
-      name: "Keri",
-      email: "kharrie6x@vinaora.com",
+      fullName: "Keri",
+      username: "lcoward6w",
+      email: "lcoward6w@vinaora.com",
       password: "g2rp1kbSE",
       city: "Yatunpu",
       state: null,
@@ -22058,7 +22308,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239cdc5000010",
-      name: "Kristopher",
+      fullName: "Kristopher",
+      username: "kmoodie6y",
       email: "kmoodie6y@4shared.com",
       password: "oF4TyvfF",
       city: "Stanišić",
@@ -22082,7 +22333,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239cdc5000011",
-      name: "Marigold",
+      fullName: "Marigold",
+      username: "mbowller6z",
       email: "mbowller6z@sourceforge.net",
       password: "mKk4sHhRtOCS",
       city: "Wielka Wieś",
@@ -22099,7 +22351,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239cdc5000012",
-      name: "Dirk",
+      fullName: "Dirk",
+      username: "dromain70",
       email: "dromain70@comsenz.com",
       password: "vVwud6Xeji9Z",
       city: "Zhongzhai",
@@ -22118,7 +22371,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239cdc5000013",
-      name: "Faina",
+      fullName: "Faina",
+      username: "fcaunt71",
       email: "fcaunt71@abc.net.au",
       password: "PRcPvQsyb",
       city: "Senovo",
@@ -22139,7 +22393,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239cdc5000014",
-      name: "Wenona",
+      fullName: "Wenona",
+      username: "wmattisssen72",
       email: "wmattisssen72@squidoo.com",
       password: "uv17LQLm",
       city: "Bahía Blanca",
@@ -22152,7 +22407,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032399c0000011b",
-      name: "Andros",
+      fullName: "Andros",
+      username: "awastie73",
       email: "awastie73@mapy.cz",
       password: "wXkNiGhehc1q",
       city: "Vale da Pedra",
@@ -22175,7 +22431,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032399c0000011c",
-      name: "Doralin",
+      fullName: "Doralin",
+      username: "dleall74",
       email: "dleall74@photobucket.com",
       password: "YKkgQygCO",
       city: "Sacramento",
@@ -22193,7 +22450,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032399c0000011d",
-      name: "Cynthea",
+      fullName: "Cynthea",
+      username: "cbellwood75",
       email: "cbellwood75@cmu.edu",
       password: "QVo1Wn",
       city: "Jalgung",
@@ -22217,7 +22475,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032399c0000011e",
-      name: "Aleece",
+      fullName: "Aleece",
+      username: "acashen76",
       email: "acashen76@narod.ru",
       password: "XpjUraCqjx9g",
       city: "Tomaszów Lubelski",
@@ -22241,7 +22500,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032399c0000011f",
-      name: "Zsazsa",
+      fullName: "Zsazsa",
+      username: "zmessenger77",
       email: "zmessenger77@cam.ac.uk",
       password: "xJAg4J",
       city: "Bagnolet",
@@ -22260,7 +22520,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032399c00000120",
-      name: "Corbin",
+      fullName: "Corbin",
+      username: "cdienes78",
       email: "cdienes78@facebook.com",
       password: "ZwRcxCor",
       city: "San Vicente",
@@ -22273,7 +22534,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032399c00000121",
-      name: "Aarika",
+      fullName: "Aarika",
+      username: "asmalley79",
       email: "asmalley79@businessinsider.com",
       password: "vrf1gh8",
       city: "Weizheng",
@@ -22293,7 +22555,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032399c00000122",
-      name: "Bendix",
+      fullName: "Bendix",
+      username: "btwitching7a",
       email: "btwitching7a@vk.com",
       password: "0YLx0gBC",
       city: "Changdai",
@@ -22314,7 +22577,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032399c00000123",
-      name: "Laurent",
+      fullName: "Laurent",
+      username: "lgarvin7b",
       email: "lgarvin7b@macromedia.com",
       password: "iKXC61drX5Xn",
       city: "Dawuhan",
@@ -22333,7 +22597,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032399c00000124",
-      name: "Hamish",
+      fullName: "Hamish",
+      username: "hgodsell7c",
       email: "hgodsell7c@diigo.com",
       password: "qAdkcLT",
       city: "Tabu",
@@ -22353,7 +22618,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032399c00000125",
-      name: "Cornelius",
+      fullName: "Cornelius",
+      username: "cramsted7d",
       email: "cramsted7d@discovery.com",
       password: "TrUNV355z",
       city: "Mrongi Daja",
@@ -22375,7 +22641,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032399c00000126",
-      name: "Nana",
+      fullName: "Nana",
+      username: "nlydford7e",
       email: "nlydford7e@uiuc.edu",
       password: "a0deYJLsemel",
       city: "Krasnystaw",
@@ -22388,7 +22655,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032399c00000127",
-      name: "Leoline",
+      fullName: "Leoline",
+      username: "lbeckenham7f",
       email: "lbeckenham7f@elegantthemes.com",
       password: "EAWCcI3E",
       city: "Gotputuk",
@@ -22412,7 +22680,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032399c00000128",
-      name: "Angelita",
+      fullName: "Angelita",
+      username: "alumbley7g",
       email: "alumbley7g@privacy.gov.au",
       password: "WL1lXbGd",
       city: "San Antonio",
@@ -22425,7 +22694,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f032399c00000129",
-      name: "Noemi",
+      fullName: "Noemi",
+      username: "npether7h",
       email: "npether7h@netlog.com",
       password: "JaOsVjBbV",
       city: "Sigay",
@@ -22438,7 +22708,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323986f300011b",
-      name: "Benita",
+      fullName: "Benita",
+      username: "blackham7i",
       email: "blackham7i@netlog.com",
       password: "xQbtTsiC",
       city: "Shangzhang",
@@ -22455,7 +22726,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323986f300011c",
-      name: "Faustina",
+      fullName: "Faustina",
+      username: "fdunridge7j",
       email: "fdunridge7j@unicef.org",
       password: "Ma2OZtY",
       city: "Shënmëri",
@@ -22479,7 +22751,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323986f300011d",
-      name: "Katya",
+      fullName: "Katya",
+      username: "kbavidge7k",
       email: "kbavidge7k@mtv.com",
       password: "Y6G5BWAusz1L",
       city: "Huazhai",
@@ -22497,7 +22770,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323986f300011e",
-      name: "Justino",
+      fullName: "Justino",
+      username: "jrymmer7l",
       email: "jrymmer7l@about.com",
       password: "z8qIusarhGd",
       city: "Nepalgunj",
@@ -22516,7 +22790,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323986f300011f",
-      name: "Nike",
+      fullName: "Nike",
+      username: "nhawkey7m",
       email: "nhawkey7m@livejournal.com",
       password: "4Whw8HVfTa",
       city: "Czerniewice",
@@ -22533,7 +22808,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323986f3000120",
-      name: "Lottie",
+      fullName: "Lottie",
+      username: "lhamments7n",
       email: "lhamments7n@addthis.com",
       password: "oDl4KvKd",
       city: "Puubheto",
@@ -22555,7 +22831,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323986f3000121",
-      name: "Stefa",
+      fullName: "Stefa",
+      username: "sghiroldi7o",
       email: "sghiroldi7o@cargocollective.com",
       password: "mrk4M9VD1T",
       city: "Kurayyimah",
@@ -22572,7 +22849,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323986f3000122",
-      name: "Alysa",
+      fullName: "Alysa",
+      username: "agoad7p",
       email: "agoad7p@xrea.com",
       password: "0fSpamg",
       city: "Luodian",
@@ -22595,7 +22873,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323986f3000123",
-      name: "Drucill",
+      fullName: "Drucill",
+      username: "dkochel7q",
       email: "dkochel7q@gizmodo.com",
       password: "6V5SrnjSeg7",
       city: "Ratíškovice",
@@ -22617,7 +22896,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323986f3000124",
-      name: "Marleen",
+      fullName: "Marleen",
+      username: "mdunseath7r",
       email: "mdunseath7r@hostgator.com",
       password: "suBr8XVI3",
       city: "Hopetown",
@@ -22634,7 +22914,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323986f3000125",
-      name: "Jessy",
+      fullName: "Jessy",
+      username: "jcapnerhurst7s",
       email: "jcapnerhurst7s@cyberchimps.com",
       password: "2HDq15ape",
       city: "Independencia",
@@ -22656,7 +22937,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323986f3000126",
-      name: "Addi",
+      fullName: "Addi",
+      username: "ablazej7t",
       email: "ablazej7t@archive.org",
       password: "PNPXoHyZghJw",
       city: "Golovinskiy",
@@ -22673,7 +22955,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323986f3000127",
-      name: "Hamnet",
+      fullName: "Hamnet",
+      username: "hgoatcher7u",
       email: "hgoatcher7u@stumbleupon.com",
       password: "aeql1NMP",
       city: "Coripata",
@@ -22696,7 +22979,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323986f3000128",
-      name: "Leif",
+      fullName: "Leif",
+      username: "lricard7v",
       email: "lricard7v@miitbeian.gov.cn",
       password: "wRNZvXTv7",
       city: "Boulogne-Billancourt",
@@ -22709,7 +22993,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f0323986f3000129",
-      name: "Lorin",
+      fullName: "Lorin",
+      username: "lmackonochie7w",
       email: "lmackonochie7w@1688.com",
       password: "NdaNsBtK",
       city: "Imām Şāḩib",
@@ -22726,7 +23011,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d40b000038",
-      name: "Claudius",
+      fullName: "Claudius",
+      username: "cmcelory7x",
       email: "cmcelory7x@dagondesign.com",
       password: "ocj6RWqWbhi9",
       city: "Waajid",
@@ -22744,7 +23030,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d40b000039",
-      name: "Eran",
+      fullName: "Eran",
+      username: "emuglestone7y",
       email: "emuglestone7y@ovh.net",
       password: "1Qe8fx",
       city: "Radamata",
@@ -22761,7 +23048,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d40b00003a",
-      name: "Jeddy",
+      fullName: "Jeddy",
+      username: "jdebenham7z",
       email: "jdebenham7z@forbes.com",
       password: "ixMj7jOw4J9",
       city: "Nantes",
@@ -22778,7 +23066,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d40b00003b",
-      name: "Heather",
+      fullName: "Heather",
+      username: "hfost80",
       email: "hfost80@sciencedaily.com",
       password: "gWYmdo",
       city: "Pandian",
@@ -22791,7 +23080,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d40b00003c",
-      name: "Florinda",
+      fullName: "Florinda",
+      username: "ffache81",
       email: "ffache81@quantcast.com",
       password: "sCCTWmvo",
       city: "Hats’avan",
@@ -22804,7 +23094,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d40b00003d",
-      name: "Clemmie",
+      fullName: "Clemmie",
+      username: "clowdyane82",
       email: "clowdyane82@hibu.com",
       password: "MfJXh5v",
       city: "Parung",
@@ -22824,7 +23115,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d40b00003e",
-      name: "Micky",
+      fullName: "Micky",
+      username: "mplail83",
       email: "mplail83@redcross.org",
       password: "mLPevua",
       city: "Dahu",
@@ -22845,7 +23137,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d40b00003f",
-      name: "Bonnie",
+      fullName: "Bonnie",
+      username: "bbront84",
       email: "bbront84@ibm.com",
       password: "Ah4Zw3QtNCN5",
       city: "Campo de la Cruz",
@@ -22858,7 +23151,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d40b000040",
-      name: "Obediah",
+      fullName: "Obediah",
+      username: "oduro85",
       email: "oduro85@japanpost.jp",
       password: "CtNHkQxlMhdd",
       city: "Nijmegen",
@@ -22876,7 +23170,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d40b000041",
-      name: "Harrison",
+      fullName: "Harrison",
+      username: "hpalister86",
       email: "hpalister86@npr.org",
       password: "sR7umNTsaAii",
       city: "Tuoshi",
@@ -22889,7 +23184,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d40b000042",
-      name: "Cecilla",
+      fullName: "Cecilla",
+      username: "cjeffels87",
       email: "cjeffels87@free.fr",
       password: "cz1ytWA",
       city: "Qifang",
@@ -22907,7 +23203,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d40b000043",
-      name: "Gav",
+      fullName: "Gav",
+      username: "gcuttles88",
       email: "gcuttles88@purevolume.com",
       password: "hRqCrsFJVq",
       city: "Capitán Bado",
@@ -22920,7 +23217,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d40b000044",
-      name: "Georgianne",
+      fullName: "Georgianne",
+      username: "gcoulbeck89",
       email: "gcoulbeck89@printfriendly.com",
       password: "PJyCrk",
       city: "Bagusan",
@@ -22941,7 +23239,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d40b000045",
-      name: "Xerxes",
+      fullName: "Xerxes",
+      username: "xdreinan8a",
       email: "xdreinan8a@wix.com",
       password: "x93O2ercDrLG",
       city: "Liên Chiểu",
@@ -22964,7 +23263,8 @@ export const dataAffiliateStat = [
     },
     {
       _id: "63701cc1f03239d40b000046",
-      name: "Karlie",
+      fullName: "Karlie",
+      username: "ksorby8b",
       email: "ksorby8b@altervista.org",
       password: "yiMyjbHk",
       city: "Dao",

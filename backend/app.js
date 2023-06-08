@@ -1,7 +1,10 @@
+const dotenv = require("dotenv");
+// configurations
+dotenv.config();
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const dotenv = require("dotenv");
 const helmet = require("helmet");
 const morgan = require("morgan");
 const multer = require("multer");
@@ -14,12 +17,9 @@ const generalRoutes = require("./routes/generalRoute");
 const managementRoutes = require("./routes/managementRoute");
 const salesRoutes = require("./routes/salesRoute");
 const userRoutes = require("./routes/userRoute");
+
 // db import
 const connectDB = require("./config/db");
-
-// configurations
-dotenv.config();
-
 // connect to DB
 connectDB();
 
@@ -37,7 +37,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors({
     credentials: true,
-    origin: "http://localhost:3000"
+    origin: "http://localhost:5173"
 }));
 app.use(cookieParser());
 
@@ -48,7 +48,7 @@ app.use("/api/management", managementRoutes);
 app.use("/api/sales", salesRoutes);
 app.use("/api/users", userRoutes);
 
-app.post("api/upload-picture-evidence", upload.single("image"), (req, res) => {
+app.post("/api/upload-picture-evidence", upload.single("file"), (req, res) => {
     const imageName = req.file.filename;
 
     res.status(200).json({
