@@ -31,7 +31,7 @@ const getProducts = expressAsyncHandler(async (req, res) => {
 // @access    Public
 const getCustomers = expressAsyncHandler(async (req, res) => {
     try {
-        const users = await Product.find({ role: "user" }).select("-password");
+        const users = await User.find({ role: "user" }).select("-password");
         
         res.status(200).json(users);
     } catch (err) {

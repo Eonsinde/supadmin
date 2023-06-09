@@ -35,7 +35,11 @@ const Navbar = ({ setMobileViewOpen }) => {
                 <form className='flex-grow bg-white dark:bg-slate-900'>
                     <div className="basis-auto form-sect flex items-center space-x-2 py-1 md:py-[5px] px-4">
                         <BiSearch className='text-base text-black dark:text-white' />
-                        <input type="text" className="bg-transparent text-black dark:text-white py-1 outline-none flex-grow text-base" placeholder='Search' />
+                        <input 
+                            type="text" 
+                            className="bg-transparent text-black dark:text-white py-1 outline-none flex-grow text-base placeholder:text-neutral-400 placeholder:dark:text-white/50" 
+                            placeholder='Search' 
+                        />
                     </div>
                 </form>
             </div>
