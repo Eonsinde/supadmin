@@ -1,9 +1,10 @@
 const mongoose = require("mongoose");
+// const Transaction = require("../models/transaction");
 // const User = require("../models/user.js");
 // const { hashUsersPassword } = require("../utils");
 // const Product = require("../models/product");
 // const ProductStat = require("../models/productStat");
-// const { dataProduct, dataProductStat  } = require("../data/index");
+// const { dataProduct, dataProductStat, dataTransaction  } = require("../data/index");
 
 
 const connectDB = async () => {
@@ -20,6 +21,7 @@ const connectDB = async () => {
         // User.insertMany(hashedUsers);
         // Product.insertMany(dataProduct); 
         // ProductStat.insertMany(dataProductStat);
+        // Transaction.insertMany(dataTransaction);
     } catch (err) {
         console.error(err);
         process.exit(1);

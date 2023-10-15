@@ -16,3 +16,7 @@ exports.hashUsersPassword = async (usersData) => {
 
     return expectedResult;
 }
+
+exports.containsNumbers = (str) => {
+    return /\d/.test(str);
+}

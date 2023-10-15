@@ -10,8 +10,6 @@ import ErrorPage from "./pages/ErrorPage";
 import PageLoader from "./components/loaders/Loader";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-//theme
-// import "./assets/styles/theme.css"   
 //core
 import "primereact/resources/primereact.min.css";     
 

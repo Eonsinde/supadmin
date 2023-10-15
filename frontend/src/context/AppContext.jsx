@@ -16,10 +16,6 @@ const AppProvider = ({ children }) => {
     const { theme } = useSelector(state => state.ui);
 
     useEffect(() => {
-        
-    }, [theme]);
-
-    useEffect(() => {
         // to handle changing app theme
         // On page load or when changing themes, best to add inline in `head` to avoid FOUC
         if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
